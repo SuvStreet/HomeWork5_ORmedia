@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 96vh;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.container div{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    font-size: 48px;
+}
+
+.container div:first-child, div:last-child{
+    align-self: flex-end;
+}
+
+.container div:nth-child(2), div:nth-child(4){
+    align-self: center;
+}
